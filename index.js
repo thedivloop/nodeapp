@@ -94,6 +94,11 @@ handlers.home = function(data,callback){
 	callback(201, {'home':'home page handler'});
 };
 
+handlers.hello = function(data,callback){
+	// Callback a http status code, and a payload object
+	callback(201, {'Welcome message':'Hello World!!'});
+};
+
 // Not found handler
 handlers.notFound = function(data,callback){
 	callback(404);
@@ -106,4 +111,5 @@ handlers.notFound = function(data,callback){
 var router = {
 	'sample' : handlers.sample,
 	'home' : handlers.home,
+	'hello' : handlers.hello,
 };
