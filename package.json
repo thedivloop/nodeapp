@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thedivloop/nodeapp/issues"
   },
-  "homepage": "https://github.com/thedivloop/nodeapp#readme"
+  "homepage": "https://github.com/thedivloop/nodeapp#readme",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
 }
